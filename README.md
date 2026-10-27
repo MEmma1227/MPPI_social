@@ -1,18 +1,23 @@
 # For ME744
 
-# git clone 
+## git clone 
 git clone https://github.com/MEmma1227/MPPI_social.git
 cd MPPI_social
 
-# Create and activate a Conda/Miniconda environment:
+## Create and activate a Conda/Miniconda environment:
 conda create -n mppi_social python=3.11 -y
 conda activate mppi_social
 
-# Install the required packages:
+## Install the required packages:
 pip install -r requirements.txt
 
-# command
+## command
 python ./scripts/run_mppi_social_random_people.py
+
+## Reference
+1. MizuhoAOKI/python_simple_mppi: https://github.com/MizuhoAOKI/python_simple_mppi
+2. yuxiang-gao/PySocialForce: https://github.com/yuxiang-gao/PySocialForce
+
 
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
