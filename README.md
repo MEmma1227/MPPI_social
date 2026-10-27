@@ -1,3 +1,20 @@
+# For ME744
+
+# git clone 
+git clone https://github.com/MEmma1227/MPPI_social.git
+cd MPPI_social
+
+# Create and activate a Conda/Miniconda environment:
+conda create -n mppi_social python=3.11 -y
+conda activate mppi_social
+
+# Install the required packages:
+pip install -r requirements.txt
+
+# command
+python ./scripts/run_mppi_social_random_people.py
+
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![uv](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/uv/main/assets/badge/v0.json)](https://github.com/astral-sh/uv)
 [![Docker](https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat)](https://www.docker.com/)
